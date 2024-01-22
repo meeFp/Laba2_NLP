@@ -65,11 +65,11 @@
 - Реализована предобработка данных, обучение модели и оценка результатов
 - laba1_NN представляет собой непереобученную модель YAMNet, а laba_1NNtrain является уже переобученной моделью для определения классов cat и dog
 ## Запуск кода:
-Скачайте файл **laba1_NNtrain.ipynb** и запустите его с использованием python-ноутбука ([Google Colab](https://colab.research.google.com/)).
+Скачайте файл **laba2_NLP.ipynb** и запустите его с использованием python-ноутбука ([Google Colab](https://colab.research.google.com/)).
 
 Или можете открыть его сразу в Colab:
 <br><br>
-<a target="_blank" href="https://colab.research.google.com/github/meeFp/Laba1_NN/blob/main/laba1_NNtrain.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/meeFp/Laba2_NLP/blob/main/laba2_NLPtrain.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
