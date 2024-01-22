@@ -8,13 +8,24 @@
 
 ## Используемые библиотеки
 
-- tensorflow
-- tensorflow_hub
-- tensorflow_io
+- scipy
+- transformers
+- einops
+- rotary-embedding-torch
+- unidecode
+- torch
+- trochaudio
+- tortoise.api
+- tortoise.utils.audio
 
 ## Инструкции по установке:
-1. Скачайте датасет ESC-50([ESC-50](https://github.com/karolpiczak/ESC-50))
-2. Разархивируйте скачанный архив и поместите в гугл диск
+1. Скачайте датасет Голос.zip([Госол.zip](https://github.com/meeFp/Laba2_NLP/blob/main/Голоса.zip)) или же создайте свой датасет с помощью сторонних программ, например, я использовал для записи своего голоса прогамму Audacity([Audacity](https://www.audacityteam.org/download/?ref=henrywithu.com)). В данной программе очень удобный интерфейс
+2. После того как вы скачали датасет или же создали свой и добрались до данного этапа
+   
+   ![image](https://github.com/meeFp/Laba2_NLP/assets/119287468/a7ce4a75-5607-4bb2-8c26-d621f1dde06c)
+
+   можете загрузить файлы формата wav. 
+
 3. Установите необходимые библиотеки, выполнив следующие команды:
    ```python
     %pip install tensorflow_io==0.31.0
@@ -34,7 +45,7 @@
     import tensorflow_hub as hub
     import tensorflow_io as tfio
     ```
-4. Загрузить модель YAMNet:
+5. Загрузить модель YAMNet:
 
    ```python
     yamnet_model_handle = 'https://tfhub.dev/google/yamnet/1'
