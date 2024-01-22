@@ -20,35 +20,34 @@
 
 ## Инструкции по установке:
 1. Скачайте датасет Голос.zip([Госол.zip](https://github.com/meeFp/Laba2_NLP/blob/main/Голоса.zip)) или же создайте свой датасет с помощью сторонних программ, например, я использовал для записи своего голоса прогамму Audacity([Audacity](https://www.audacityteam.org/download/?ref=henrywithu.com)). В данной программе очень удобный интерфейс
-2. После того как вы скачали датасет или же создали свой и добрались до данного этапа можете загрузить файлы формата wav. 
-   
-   ![image](https://github.com/meeFp/Laba2_NLP/assets/119287468/a7ce4a75-5607-4bb2-8c26-d621f1dde06c)
-
-3. Установите необходимые библиотеки, выполнив следующие команды:
-   ```python
-    %pip install tensorflow_io==0.31.0
-    %pip install tensorflow==2.11.0
-    %pip install tensorflow_hub
+2.  Установите необходимые библиотеки, выполнив следующие команды:
+     ```python
+    !pip3 install -U scipy
+    !git clone https://github.com/jnordberg/tortoise-tts.git
+    %cd tortoise-tts
+    !pip3 install transformers==4.19.0
+    !pip3 install -r requirements.txt
+    !python3 setup.py install
+    !pip install einops==0.3.0
+    !pip install rotary-embedding-torch==0.2.2
+    !pip install unidecode==1.2.0
     ```
 
     ```python
-    import os
+    import torch
+    import torchaudio
+    import torch.nn as nn
+    import torch.nn.functional as F
 
-    from IPython import display
-    import matplotlib.pyplot as plt
-    import numpy as np
-    import pandas as pd
+    import IPython
 
-    import tensorflow as tf
-    import tensorflow_hub as hub
-    import tensorflow_io as tfio
+    from tortoise.api import TextToSpeech
+    from tortoise.utils.audio import load_audio, load_voice, load_voices
     ```
-5. Загрузить модель YAMNet:
+3. После того как вы скачали датасет или же создали свой и добрались до данного этапа можете загрузить файлы формата wav. 
+   
+   ![image](https://github.com/meeFp/Laba2_NLP/assets/119287468/a7ce4a75-5607-4bb2-8c26-d621f1dde06c)
 
-   ```python
-    yamnet_model_handle = 'https://tfhub.dev/google/yamnet/1'
-    yamnet_model = hub.load(yamnet_model_handle)
-   ```
 ## Примечательные особенности:
 - Используется модель YAMNet для извлечения вложений из аудиофайлов
 - Проект предоставляет инструкции по обучению собственной нейронной сети и тестированию собственных аудиофайлов
