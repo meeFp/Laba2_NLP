@@ -69,7 +69,7 @@
 
 Или можете открыть его сразу в Colab:
 <br><br>
-<a target="_blank" href="https://colab.research.google.com/github/meeFp/Laba2_NLP/blob/main/laba2_NLP.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/meeFp/Laba2_NLP/blob/main/laba2_NLP_.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
