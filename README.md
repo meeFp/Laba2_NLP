@@ -44,7 +44,11 @@
     from tortoise.api import TextToSpeech
     from tortoise.utils.audio import load_audio, load_voice, load_voices
     ```
-3. После того как вы скачали датасет или же создали свой и добрались до данного этапа можете загрузить файлы формата wav. 
+
+3. В данной строчке генерируем текст, который в дальнейшем превратиться в аудиоинтепретацию
+   ![image](https://github.com/meeFp/Laba2_NLP/assets/119287468/bef1c391-b08f-453e-9789-d206cc86e452)
+
+5. После того как вы скачали датасет или же создали свой и добрались до данного этапа можете загрузить файлы формата wav. 
    
    ![image](https://github.com/meeFp/Laba2_NLP/assets/119287468/a7ce4a75-5607-4bb2-8c26-d621f1dde06c)
 
