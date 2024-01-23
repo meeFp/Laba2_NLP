@@ -75,25 +75,17 @@
 </a>
 
 ## Результаты:
-- Синтез текста при 3 аудифайлах
+- Синтез текста при обучающем датасете в 3 аудифайла
 
    ![result3](https://github.com/meeFp/Laba2_NLP/assets/119287468/b2c34c42-cdf0-4503-9684-22a189adf440)
   
    [reusult_for_3examples.webm](https://github.com/meeFp/Laba2_NLP/assets/119287468/21d149d3-4231-4897-add8-2887c38d35ef)
  
-- Обнаружение нового класса кот
-  [cat.webm](https://github.com/meeFp/Laba1_NN/assets/119287468/7305634e-7d2f-4ce1-896b-b344c3e783e2)
+- Синтез текста при обучающем датасете в 10 аудифайлов
 
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/b3b467a9-d98e-4f57-9817-ee0ebe4558ad)
+  ![result](https://github.com/meeFp/Laba2_NLP/assets/119287468/5ffdf322-362c-4b04-b454-4ceefc6bd86d)
 
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/be936584-f355-4584-a24d-52e11490fbe2)
-
-- Обнаружение старого класса телефонный звонок
-  [klassicheskiy-zvonok-telefona-33191.webm](https://github.com/meeFp/Laba1_NN/assets/119287468/1897180b-2710-4930-a687-d33f85acf455)
-
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/31c7532b-322a-4616-a868-cbead7f29af4)
-
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/204479f2-37f4-46ba-bcfa-d5efaf8d6741)
+  [reusult_for_10examples.webm](https://github.com/meeFp/Laba2_NLP/assets/119287468/c805767c-4bf9-491c-b272-71edd911c15e)
 
 После обучения модели и её тестирования мы успешно достигли точности классификации для звуковых сигналов собак и кошек. Полученные результаты демонстрируют эффективность разработанной модели в автоматическом выделении и классификации звуковых сигналов.
 
