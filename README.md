@@ -76,11 +76,10 @@
 
 ## Результаты:
 - Синтез текста при 3 аудифайлах
-  [lay-sobaki.webm](https://github.com/meeFp/Laba1_NN/assets/119287468/5f016740-6d19-4588-8aa0-95c385bfe39b)
 
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/626c9601-0cf3-4d78-8b39-ec270a68b96a)
+   ![result3](https://github.com/meeFp/Laba2_NLP/assets/119287468/b2c34c42-cdf0-4503-9684-22a189adf440)
   
-  ![image](https://github.com/meeFp/Laba1_NN/assets/119287468/492f0507-4023-4a90-a8ed-460905b00ebc)
+   [reusult_for_3examples.webm](https://github.com/meeFp/Laba2_NLP/assets/119287468/21d149d3-4231-4897-add8-2887c38d35ef)
  
 - Обнаружение нового класса кот
   [cat.webm](https://github.com/meeFp/Laba1_NN/assets/119287468/7305634e-7d2f-4ce1-896b-b344c3e783e2)
